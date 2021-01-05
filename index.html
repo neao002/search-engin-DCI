@@ -46,8 +46,64 @@
                     </select>
                 </div>
 
+                <div class="input-group mb-3 mt-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="categorySelect">Category</label>
+                    </div>
+                    <select class="form-control" id="categorySelect">
+                        <option selected value="">Choose...</option>
+                        <option value="backgrounds">Backgrounds</option>
+                        <option value="fashion">Fashion</option>
+                        <option value="nature">Nature</option>
+                        <option value="science">Science</option>
+                        <option value="education">Education</option>
+                        <option value="feelings">Feelings</option>
+                        <option value="health">Health</option>
+                        <option value="people">People</option>
+                        <option value="religion">Religion</option>
+                        <option value="places">Places</option>
+                        <option value="animals">Animals</option>
+                        <option value="industry">Industry</option>
+                        <option value="computer">Computer</option>
+                        <option value="food">Food</option>
+                        <option value="sports">Sports</option>
+                        <option value="transportation">Transportation</option>
+                        <option value="travel">Travel</option>
+                        <option value="buildings">Buildings</option>
+                        <option value="business">Business</option>
+                        <option value="music">Music</option>
+                    </select>
+                </div>
 
+                <div class="input-group mb-3 mt-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="perPageSelect">Per Page</label>
+                    </div>
+                    <select class="form-control" id="perPageSelect">
+                        <option selected value="20">20</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="200">200</option>
+                    </select>
+                </div>
+                <nav id="paggingNav" class="d-none">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a id="prevBtn" class="page-link" href="#" tabindex="-1">Previous</a>
+                        </li>
+                        <li class="page-item col-sm-1 pr-0 pl-0">
+                            <input id="pageNumInp" class="form-control" type="number" value="1">
+                        </li>
+                        <li class="page-item">
+                            <a id="nextBtn" class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
+
+
+
+
         </div>
         <div class="row" id="resultDiv">
 
